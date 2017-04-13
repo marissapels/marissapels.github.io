@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+	<title>Contact Marissa</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1> Marissa Pels</h1>
+
+		<nav>
+			<a href="index.html">About</a>
+			<a href ="portfolio.html">Portfolio</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+
+
+	<div class="mainContent">
+		<section class="contact">
+			<h2> Contact </h2>
+			<!-- This is where the input boxes will go for information -->
+			<form action="/action_page.php">
+				Name: 
+				<br>
+				<input type="text" name="name" id="inputName" placeholder="John Smith" onclick= "if (this.placeholder=='John Smith') this.placeholder='';" >
+				<br><br>
+				Email:
+				<br>
+				<input type ="text" name="email" placeholder="example@gmail.com" id="inputEmail" onfocus= "if (this.placeholder=='example@gmail.com') this.placeholder='';">
+				<br><br>
+				Message:
+				<br>
+				<textarea id="inputMessage">
+				</textarea>
+				<br><br>
+				<input type="submit" value="Submit" class="submit">
+			</form>
+		</section>
+
+		<section class="connect">
+			<h3> Connect with Me </h3>
+			<a href="https://github.com/marissapels" target="_blank"><img src="assets/images/github.png" alt="github" class="social"></a>
+			<a href="https://www.linkedin.com/in/marissa-pels-b7664757/" target="_blank"><img src="assets/images/linkedin.png" alt="linkedin" class="social"></a>
+			<a href="http://stackoverflow.com/users/7590603/marissa-pels" target="_blank"><img src="assets/images/stackoverflow.png" alt="stack" class="social"></a>
+		</section>
+	</div>
+
+	<footer>
+		<p> &copy; Copyright 2017 Marissa Pels </p>
+	</footer>
+
+</body>
+
+</html>

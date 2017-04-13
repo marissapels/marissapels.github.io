@@ -1,0 +1,208 @@
+/*Style sheet for index.html, porfolio.html, and contact.html*/
+* {
+	box-sizing:border-box;
+
+
+}
+body {
+    color: #777777;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0 auto;
+    background-image: url(../images/grey_sandbag.png);
+
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 5px solid #cccccc;
+    overflow: auto;
+    margin-bottom: 40px;
+    position: relative;
+    top: 0px;
+    width:100%;
+
+}
+
+h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    padding: 30px;
+    margin: 0 10%;
+    float: left;
+
+
+}
+
+h2, h3 {
+	color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+nav {
+    position: absolute;
+    padding: 15px;
+    right: 0px;
+    bottom: 10px;
+}
+
+nav a {
+
+    padding: 20px;
+    color: #777777;
+}
+
+nav a:hover{
+	background-color:#dddddd;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mainContent {
+    overflow: auto;
+    width: 960px;
+    margin: 0 10%;
+
+}
+
+.mainContent:after{ 
+	content:"";
+	display:block;
+}
+
+footer, .mainContent:after{ 
+	padding: 20px; 
+} 
+
+footer {
+    background: #666666;
+    color: #ffffff;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    margin-top: 100px;
+	position: relative;
+	width:100%;
+    bottom: 0px;
+    left:0px;
+    font-size:14px;
+}
+
+.connect {
+	width: 270px;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    text-align: center;
+    float: right;
+}
+
+.social {
+	width: 50px;
+    margin: 0px 5px 0px 5px;
+}
+
+.social:hover {
+	border: 3px solid #cccccc;
+}
+
+/*Styles for Index page*/
+.info {
+    width: 650px;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    overflow: auto;
+    float: left;
+    line-height: 1.5;
+}
+
+#marissa {
+    width: 200px;
+    float: left;
+    margin: 0px 10px;
+}
+
+/* Styles for Portfolio Page*/
+
+.portfolioLinks {
+	width: 650px;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    overflow: auto;
+    float: left;
+}
+
+.portfolioLinks img {
+	width: 275px;
+    margin: 10px
+}
+
+.wrapper1 , .wrapper2, .wrapper3, .wrapper4, .wrapper5 {
+	position:relative;
+
+}
+
+.wrapper1, .wrapper3, .wrapper5 {
+	float:left;
+}
+
+.wrapper2, .wrapper4{
+	float:right;
+}
+
+.portfolioLinks h2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    border: none;
+    text-align: center;
+    padding: 10px 5px;
+    z-index: 5;
+    font-size: 20px;
+    width: 275px;
+    margin: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.wrapper1:hover h2, .wrapper2:hover h2, .wrapper3:hover h2, .wrapper4:hover h2, .wrapper5:hover h2{
+	font-size:24px;
+}
+
+
+
+
+/*Styles for Contact Page*/
+
+.contact {
+	width: 650px;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    overflow: auto;
+    float: left;
+}
+
+#inputName, #inputEmail, #inputMessage {
+	width:100%;
+	font-style:italic;
+	color:#777777;
+}
+
+
+#inputMessage {
+	height: 250px;
+}
+
+.submit {
+	background: #4aaaa5;
+    color: #ffffff;
+    padding:10px;
+}
+
