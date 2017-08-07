@@ -1,45 +1,103 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-	<title>Marissa Pels</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.css">
+	<link href="https://fonts.googleapis.com/css?family=McLaren|Raleway|Grand+Hotel" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	
 </head>
-
 <body>
 	<header>
-		<h1> Marissa Pels</h1>
-
-		<nav>
-			<a href="index.html">About</a>
-			<a href ="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-
+		<h1><a class="header" href="index.html">Marissa Pels</a></h1>
 	</header>
+	
 
-	<div class="mainContent">
-		<section class="info">
-			<h2> About Me </h2>
-			<img src="assets/images/profile.jpg" alt="Marissa" id="marissa">
-			<p> Hi there! My name is Marissa Pels, and I'm so glad you decided to stop by my site.  I am originally from Coppell, TX (near Dallas), but I moved to Austin to attend college at UT, and I've been here ever since! I studied chemical engineering in school, and when I graduated, I started working as an engineer for a pharmaceutical manufacturing company. After a few years there, I knew it was time for a career change. </p>
-			<p>With a background in engineering, I love learning, creating, building, exploring, and fixing. I need to be challenged. I started teaching myself web development, and I LOVED it. I heard about the UT Coding Bootcamp and thought it would be a great way to become more competitive and marketable in this field. I am now taking the class and working as a technical support analyst for a small tech company. I can't wait to see what the future holds!</p>
-			<p>On the weekends, you'll probably find me hanging out around Zilker and playing with strangers' puppies, running around town lake, or trying out a new restaurant to find the best breakfast taco. </p>
-		</section>
+	<nav class="z-depth-0">
+    	<div class="nav-wrapper center z-depth-0">
+    		<ul id="nav-mobile" class="center hide-on-med-and-down">
+        		<li><a href="index.html">About Me</a></li>
+        		<li><a href="projects.html">Projects</a></li>
+        		<li><a href="#">Contact</a></li>
+      		</ul>
+    	</div>
+  	</nav>
 
-		<section class="connect">
-			<h3> Connect with Me </h3>
-			<a href="https://github.com/marissapels" target="_blank"><img src="assets/images/github.png" alt="github" class="social"></a>
-			<a href="https://www.linkedin.com/in/marissa-pels-b7664757/" target="_blank"><img src="assets/images/linkedin.png" alt="linkedin" class="social"></a>
-			<a href="http://stackoverflow.com/users/7590603/marissa-pels" target="_blank"><img src="assets/images/stackoverflow.png" alt="stack" class="social"></a>
-		</section>
+ <!--  <div class="parallax-container desk1">
+    <div class="parallax"><img src="images/desk1.jpg"></div>
+  </div> -->
+
+	<div class="section info">
+	    <div class="row containerInfo">
+			<div class="col s4">
+				<img src="images/profile2.jpg" alt="Marissa" id="marissa" class="circle">
+			</div>
+			
+	    	<div class="col s8">
+				<section class="mainSection">
+					<h2 id="hello">Hi there!</h2>
+					
+					<p> My name is Marissa Pels, and I'm so glad you decided to stop by my site.  I am originally from Coppell, TX (near Dallas), but I moved to Austin to attend college at UT, and I've been here ever since! I studied chemical engineering in school, and when I graduated, I started working as an engineer for a pharmaceutical manufacturing company. After a few years there, I knew it was time for a career change. </p>
+					<p>With a background in engineering, I love learning, creating, building, exploring, and fixing. I need to be challenged. I started teaching myself web development, and I LOVED it. I heard about the UT Coding Bootcamp and thought it would be a great way to become more competitive and marketable in this field. I am now taking the class and working as a technical support analyst for a small tech company. I can't wait to see what the future holds!</p>
+					<p>On the weekends, you'll probably find me hanging out around Zilker and playing with strangers' puppies, running around town lake, or trying out a new restaurant to find the best breakfast taco. </p>
+					<div class="circle"></div>
+				</section>
+			</div>
+		</div>
 	</div>
 
-<footer>
-	<p> &copy; Copyright 2017 Marissa Pels </p>
-</footer>
+ <!--  <div class="parallax-container">
+    <div class="parallax"><img src="images/desk1.jpg"></div>
+  </div> -->
 
+
+
+
+<div class="parallax-container">
+    <div class="parallax"><img src="images/austin4.jpg"></div>
+  </div>
+
+<div class="learning">
+	<h3>Never Stop Learning</h3>
+	<p>Experience with: HTML, CSS, Javascript, jQuery, SQL, node.js, Express, sequelize</p>
+</div>
+<!-- <div class="parallax-container symphony">
+    <div class="parallax"><img src="images/greyChevron.jpg" style="background-size:cover"></div>
+  </div> -->
+
+
+<!-- 	<div class="container">
+		<div class="row">
+			<div class="col s8">
+				<section class="mainSection">
+					<h2 id="hello">Hi there!</h2>
+					
+					<p> My name is Marissa Pels, and I'm so glad you decided to stop by my site.  I am originally from Coppell, TX (near Dallas), but I moved to Austin to attend college at UT, and I've been here ever since! I studied chemical engineering in school, and when I graduated, I started working as an engineer for a pharmaceutical manufacturing company. After a few years there, I knew it was time for a career change. </p>
+					<p>With a background in engineering, I love learning, creating, building, exploring, and fixing. I need to be challenged. I started teaching myself web development, and I LOVED it. I heard about the UT Coding Bootcamp and thought it would be a great way to become more competitive and marketable in this field. I am now taking the class and working as a technical support analyst for a small tech company. I can't wait to see what the future holds!</p>
+					<p>On the weekends, you'll probably find me hanging out around Zilker and playing with strangers' puppies, running around town lake, or trying out a new restaurant to find the best breakfast taco. </p>
+					<div class="circle"></div>
+				</section>
+			</div>
+			<div class="col s4">
+				<img src="images/profile2.jpg" alt="Marissa" id="marissa" class="circle">
+			</div>
+		</div>
+	</div>  -->
+
+	<footer class="page-footer">
+		<a href="https://github.com/marissapels" target="_blank" ><img src="images/github.png" alt="github" class="linkedAccount"></a>
+		<a href="https://www.linkedin.com/in/marissa-pels/" target="_blank"><img src="images/linkedin.png" alt="linkedin" class="linkedAccount"></a>
+	</footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	      $('.parallax').parallax();
+	});
+</script>
 </body>
-
 </html>
